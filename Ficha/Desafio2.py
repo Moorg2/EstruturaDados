@@ -66,3 +66,5 @@ lista.remover_duplicatas()
 
 print("\nLista após remoção de duplicatas:")
 lista.display()
+
+#Fiz uso da função set(), sabendo que ela por si só não aceita duplicatas, caso eu tentasse colocar nela o mesmo elemento 2 vezes nõa funcionaria, então só o que me restaria a fazer seria apagar o ponteiro que agora aponta a um espaço vazio, o que é realizado no metodo de remover duplicatas

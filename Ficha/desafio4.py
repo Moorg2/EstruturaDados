@@ -72,3 +72,5 @@ lista.organizarIdade()
 
 print("Lista organizada:")
 lista.display()
+
+#O metodo retira o primeiro elemento da lista e o armazena, isso então é usado para que a cada vez que a fila for percorrida pelo metodo, haja uma comparação base da idade do node, o que trás para a ultima parte do codigo, que vai corrigir a posição dos elementos retirados da fila base ao compara-los com o primeiro nó retirado

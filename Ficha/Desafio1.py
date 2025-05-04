@@ -61,3 +61,5 @@ class DLinkedList:
           self.head = self.head.next
           self.head.prev = self.head.prev.prev
           self.size -= 1
+
+#Eu prefiri fazer uso de uma double linked list pois suas caracteristicas de um head e tail definidos facilitam a inserção e retirada de elesmentos no começo e no final da lista
